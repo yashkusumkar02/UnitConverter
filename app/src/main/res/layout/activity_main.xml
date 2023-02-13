@@ -27,6 +27,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="calculate"
         android:text="Submit"
         app:backgroundTint="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
