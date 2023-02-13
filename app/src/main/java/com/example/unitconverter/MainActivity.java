@@ -41,5 +41,6 @@ public class MainActivity extends AppCompatActivity {
         int kg=Integer.parseInt(s);
         double  pound= 2.205*kg;
         txt2.setText("The corresponding value in Pounds is: " + pound);
+        Toast.makeText(this, "Thanks for using this App!", Toast.LENGTH_SHORT).show();
     }
 }
